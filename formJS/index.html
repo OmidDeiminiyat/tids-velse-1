@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tilmelding</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js"></script>
+</head>
+<body>
+
+    <div id="main-form">
+        <form id="validationForm">
+            <span class="material-symbols-outlined" onclick="closeForm()">
+                cancel
+                </span>
+                <h1>Tilmelding</h1>
+            <label for="username">Navn:</label>
+            <input type="text" id="username" name="username">
+            <span id="usernameError" class="error"></span>
+    
+            <br>
+
+            <label for="After">Efternavn:</label>
+            <input type="text" id="surName" name="After">
+            <span id="surError" class="error"></span>
+
+            <br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <span id="emailError" class="error"></span>
+    
+            <br>
+    
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <span id="passwordError" class="error"></span>
+    
+            <br>
+
+            <label for="genPass">Gen-Password:</label>
+            <input type="password" id="genPass" name="genPass">
+            <span id="genPassError" class="error"></span>
+
+            <br>
+    
+            <input type="button" value="Submit" onclick="validateForm()">
+               
+          </form>
+    </div> 
+    
+</body>
+</html>

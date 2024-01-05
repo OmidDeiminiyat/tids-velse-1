@@ -1,0 +1,79 @@
+#main-form #validationForm{
+    margin-top: 30px;
+}
+
+
+#validationForm {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 90%;
+    top: 5px;
+    left: 5%;
+    background-color: var(--darker); 
+    animation-name: formF;
+    animation-duration: 2s;
+}
+#validationForm h1, p {
+   text-align: center;
+}
+#validationForm p {
+    color: var(--lightWhite);
+}
+#validationForm a {
+    color: var(--red);
+    text-decoration: none;
+}
+
+.error {
+    color: red;
+  }
+  .material-symbols-outlined{
+   color: white;
+    font-size: 30px;
+    cursor: pointer;
+
+  }
+
+
+  #validationForm {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 50%;
+    top: 5px;
+    left: 25%;
+    background-color: var(--darker); 
+    border: 4px solid;
+    border-radius: 15px;
+}
+#validationForm h1 {
+    color: var(--appelsine);
+    margin: 0;
+    padding: 0 0 5px 15px;
+}
+#validationForm input{
+    margin: 6px 0 6px 0;
+    height: 30px;
+    border-radius: 9px;
+    border: 2px solid;
+    background-color: var(--back);
+}
+
+#validationForm input[type=button] {
+    cursor: pointer;
+    width: 50%;
+    background-color: green;
+    margin-left: 25%;
+    color: white;
+}
+#validationForm button {
+    width: 150px;
+    height: 30px;
+    border-radius: 21px;
+    color: var(--white);
+    background-color: var(--appelsine);
+}
+#main-form #validationForm{
+    margin-top: 30px;
+}
